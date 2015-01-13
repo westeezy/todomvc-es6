@@ -12,7 +12,9 @@ ES6 Version of [TodoMVC VanillaJS](https://github.com/tastejs/todomvc/tree/gh-pa
  - serve => connect at :8080
  - watch => jshint
  - default => build -> test
+ 
 
+----------
 ## Tests ##
 [![Build Status](https://travis-ci.org/westeezy/todomvc-es6.svg)](https://travis-ci.org/westeezy/todomvc-es6)
 
@@ -21,6 +23,8 @@ ES6 Version of [TodoMVC VanillaJS](https://github.com/tastejs/todomvc/tree/gh-pa
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/westeezy.svg)](https://saucelabs.com/u/westeezy)
 - Mocha with sinon spies. Grunt task to tests multiple browsers on saucelabs. Travis CI to track builds on push to master.
 
+
+----------
 ## ES6 Features Used ##
 
  - Classes
