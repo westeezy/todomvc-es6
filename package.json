@@ -1,0 +1,43 @@
+{
+  "name": "todomvc-es6",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "javascript",
+    "bootstrap",
+    "boilerplate",
+    "es6"
+  ],
+  "dependencies": {
+    "6to5": "^1.15.0",
+    "6to5ify": "^3.0.0",
+    "amdclean": "^2.4.0",
+    "chai": "^1.10.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.2.1",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.9.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha": "^0.4.11",
+    "grunt-saucelabs": "^8.4.1",
+    "load-grunt-configs": "^0.4.1",
+    "load-grunt-tasks": "^1.0.0",
+    "mocha": "^2.0.1",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.6.0"
+  },
+  "author": "Westin Wrzesinski",
+  "license": "MIT",
+  "homepage": "westinwrz.me"
+}

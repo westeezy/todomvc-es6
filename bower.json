@@ -1,0 +1,7 @@
+{
+  "name": "todomvc-es6",
+  "version": "0.0.1",
+  "dependencies": {
+    "todomvc-common": "~0.3.0"
+  }
+}
