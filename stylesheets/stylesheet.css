@@ -456,7 +456,7 @@ header {
 header h1 {
   width: 540px;
   margin-top: 0;
-  margin-bottom: 0.6em;
+  margin-bottom: 0.1em;
   font-size: 72px;
   font-weight: normal;
   line-height: 1;
@@ -466,7 +466,7 @@ header h1 {
 header h2 {
   width: 540px;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0.6em;
   font-size: 26px;
   font-weight: normal;
   line-height: 1.3;
@@ -543,7 +543,7 @@ header a.button:hover {
   background-color: #9ddcff!important;
 }
 
-header a.alt-button {
+a.alt-button {
   -webkit-border-radius: 9;
   -moz-border-radius: 9;
   border-radius: 9px;
@@ -558,7 +558,7 @@ header a.alt-button {
   text-decoration: none;
 }
 
-header a.alt-button:hover {
+a.alt-button:hover {
   background: #9ddcff;
   text-decoration: none;
 }
