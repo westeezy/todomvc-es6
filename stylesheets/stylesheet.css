@@ -451,18 +451,15 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
-  border-bottom: solid 1px #275da1;
 }
 
 header h1 {
   width: 540px;
   margin-top: 0;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.6em;
   font-size: 72px;
   font-weight: normal;
   line-height: 1;
-  color: #fff;
   letter-spacing: -1px;
 }
 
@@ -531,11 +528,41 @@ a.button small {
   font-size: 11px;
 }
 header a.button {
+  background-color: #666!important;
+  border-radius: 9px;
   position: absolute;
   top: 0;
   right: 0;
-  background: transparent url(../images/github-button.png) 0 0 no-repeat;
+  background: transparent url(../images/github-button.png) 0 0 no-repeat;  
+  -webkit-box-shadow: 0px 1px 3px #000000;
+  -moz-box-shadow: 0px 1px 3px #000000;
+  box-shadow: 0px 1px 3px #000000;
 }
+
+header a.button:hover {
+  background-color: #9ddcff!important;
+}
+
+header a.alt-button {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  -webkit-box-shadow: 0px 1px 3px #000000;
+  -moz-box-shadow: 0px 1px 3px #000000;
+  box-shadow: 0px 1px 3px #000000;
+  color: #fff;
+  font-size: 20px;
+  background: #666;
+  padding: 10px 20px 10px 20px;
+  margin-top: 25px;
+  text-decoration: none;
+}
+
+header a.alt-button:hover {
+  background: #9ddcff;
+  text-decoration: none;
+}
+
 aside a.button {
   display: block;
   width: 138px;
@@ -834,7 +861,6 @@ footer a:hover {
     margin-top: 15px;
     font-size: 13px;
     line-height: 1;
-    color: #2879d0;
     text-align: center;
     background-color: #9ddcff;
     background-image: none;
