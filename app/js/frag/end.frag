@@ -1,0 +1,2 @@
+  exports.@SCRIPT = index['default'];
+}));
